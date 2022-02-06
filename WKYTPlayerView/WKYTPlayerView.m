@@ -847,7 +847,9 @@ NSString static *const kWKYTPlayerSyndicationRegexPattern = @"^https://tpc.googl
     if (ytMatch || adMatch || oauthMatch || staticProxyMatch || syndicationMatch) {
         return YES;
     } else {
-        [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
+        // Prevent applications from opening Youtube from iOS app. 
+        
+        // [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
         return NO;
     }
 }
