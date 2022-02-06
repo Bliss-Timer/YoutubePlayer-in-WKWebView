@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
                               limitations under the License.
                             LICENSE
                          }
-  s.author             = { 'hmhv' => 'developer@blisstimer.com' }
+  s.author             = { 'hmhv' => 'test@test.com' }
   s.source             = { :git => 'https://github.com/Bliss-Timer/YoutubePlayer-in-WKWebView/', :tag => s.version }
 
   s.platform     = :ios, '8.0'
